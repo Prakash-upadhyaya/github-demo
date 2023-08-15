@@ -23,7 +23,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React with doc
         </a>
         <h3>Text from the master branch</h3>
       </header>
