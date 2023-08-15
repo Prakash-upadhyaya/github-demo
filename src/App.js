@@ -1,7 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import { useEffect } from "react";
 
 function App() {
+  const handleSubmit = () => {
+    console.log("Clicked");
+  };
+
+  useEffect(() => {
+    handleSubmit();
+  }, []);
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +25,7 @@ function App() {
         >
           Learn React
         </a>
+        <h3>Text from the master branch</h3>
       </header>
     </div>
   );
